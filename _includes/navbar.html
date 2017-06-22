@@ -6,7 +6,7 @@
     </a>
   </div>
   <ul class="navbar__list col">
-    <li class="navbar__item"><a class="navbar__link{% if page.url == '/' %} navbar__link--active{% endif %}" href="{{ '/' | | relative_url }}">Work</a></li>
-    {% for pg in site.pages %}<li class="navbar__item"><a class="navbar__link{% if page.url == pg.url %} navbar__link--active{% endif %}" href="{{ pg.url | relative_url }}">{{ pg.title }}</a></li>{% endfor %}
+    <li class="navbar__item"><a class="navbar__link{% if page.url == '/' %} navbar__link--active{% endif %}" href="{{ site.baseurl }}">Work</a></li>
+    {% for pg in site.pages %}<li class="navbar__item"><a class="navbar__link{% if page.url == pg.url %} navbar__link--active{% endif %}" href="{{ pg.url }}">{{ pg.title }}</a></li>{% endfor %}
   </ul>
 </nav>
