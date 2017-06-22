@@ -1,2 +1,2 @@
-# cloudstitch-portfolio
-💼 Simple Jekyll portfolio site powered by Cloudstitch
+# portfolio
+💼 A simple Jekyll portfolio site powered by Cloudstitch

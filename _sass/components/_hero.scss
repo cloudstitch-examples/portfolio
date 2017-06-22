@@ -1,0 +1,24 @@
+.hero {
+  margin-top: -7.5rem;
+  height: 95vh;
+  background-color: rgb(51,51,51);
+  background-image: url($hero-bg);
+  background-size: cover;
+
+  &--content {
+    height: 100%;
+  }
+
+  &--tagline {
+    height: 100%;
+    align-items: center;
+    font-size: 1.75rem;
+    font-weight: 400;
+    text-align: center;
+    color: $inverted-color;
+    padding: 0 $grid-half-gutter;
+    @include media-breakpoint-up(lg) {
+      font-size: 2.5rem;
+    }
+  }
+}

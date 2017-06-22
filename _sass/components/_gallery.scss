@@ -1,0 +1,46 @@
+.gallery {
+  padding-top: 2.5rem;
+
+  &__preview {
+    display: block;
+    padding: 1.5rem;
+    margin-bottom: 2.5rem;
+    background-color: $card-color;
+    color: $copy-color;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: $grid-gutter;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: $copy-color;
+
+      & .gallery__image {
+        opacity: .5;
+      }
+    }
+
+    &:active {
+      color: $copy-color;
+    }
+  }
+
+  &__image {
+    height: 12.5rem;
+    margin: -1.5rem -1.5rem 1rem;
+    background-color: $copy-color;
+    background-size: cover;
+    background-position: center;
+    transition: opacity ease-in-out .3s;
+  }
+
+  &__title {
+    color: $text-color;
+  }
+
+  &__description {
+    margin-bottom: 0;
+  }
+}

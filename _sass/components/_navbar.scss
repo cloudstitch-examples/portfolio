@@ -1,0 +1,82 @@
+.navbar {
+  position: absolute;
+  z-index: 1;
+  justify-content: space-between;
+  width: inherit;
+  padding: 1.5rem 0;
+  @include media-breakpoint-up(lg) {
+    padding: 2.5rem 0;
+  }
+
+  &__brand {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0;
+    color: $text-color;
+    transition: color 0.15s linear;
+
+    &:focus,
+    &:hover {
+      color: rgba($text-color, .5);
+      text-decoration: none;
+    }
+
+    &--inverted {
+      color: $inverted-color;
+
+      &:focus,
+      &:hover {
+        color: rgba($inverted-color, .5);
+      }
+    }
+  }
+
+  &__title {
+    display: none;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    @include media-breakpoint-up(lg) {
+      display: block;
+    }
+  }
+
+  &__logo {
+    margin-right: .5rem;
+  }
+
+  &__list {
+    display: flex;
+    margin-bottom: 0;
+    list-style: none;
+    @include media-breakpoint-up(lg) {
+      justify-content: flex-end;
+    }
+  }
+
+  &__item {
+    margin-left: 3rem;
+    font-size: 1.25rem;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  &__link {
+    padding-bottom: .5rem;
+    color: $brand-color;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.15s linear;
+
+    &--active {
+      border-bottom-color: $brand-color;
+    }
+
+    &:focus,
+    &:hover {
+      color: $brand-color;
+      border-bottom-color: $brand-color;
+      text-decoration: none;
+    }
+  }
+}
