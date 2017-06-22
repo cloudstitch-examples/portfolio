@@ -1,6 +1,6 @@
 ---
 date: '2017-06-22T22:36:08.033Z'
-layout: work
+layout: page
 ---
 ---
 title: Contact

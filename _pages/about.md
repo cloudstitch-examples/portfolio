@@ -1,6 +1,6 @@
 ---
 date: '2017-06-22T23:03:34.625Z'
-layout: work
+layout: page
 ---
 ---
 title: About
