@@ -1,7 +1,7 @@
 # Site settings
 title: Alyssa P. Hacker
 description: Alyssa P. Hacker is a designer and developer based in San Francisco, CA.
-baseurl: ""
+baseurl: "https://cloudstitch-examples.github.io/portfolio"
 url: ""
 
 # Build settings

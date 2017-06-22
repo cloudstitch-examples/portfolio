@@ -1,7 +1,7 @@
 <nav class="navbar row" role="navigation">
   <div class="col">
     <a class="navbar__brand{% if page.url == '/' %} navbar__brand--inverted{% endif %}" href="{{ '/ ' | relative_url }}">
-      <img class="navbar__logo" src="/assets/img/logo.svg" alt="{{ site.title | escape }}" />
+      <img class="navbar__logo" src="{{ site.baseurl }}/assets/img/logo.svg" alt="{{ site.title | escape }}" />
       <h1 class="navbar__title">{{ site.title | escape }}</h1>
     </a>
   </div>
