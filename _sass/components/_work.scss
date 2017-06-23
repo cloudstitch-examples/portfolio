@@ -1,9 +1,6 @@
 .work {
-  padding-bottom: 2.5rem;
-
   &__title {
-    font-size: 2rem;
-    color: $text-color;
+    color: $header-color;
   }
 
   &__description {
@@ -11,7 +8,7 @@
     font-size: 1.25rem;
     font-weight: 400;
     font-style: italic;
-    color: $text-color;
+    color: $header-color;
   }
 
   &__image {

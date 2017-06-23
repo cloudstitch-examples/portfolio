@@ -12,12 +12,12 @@
     display: inline-flex;
     align-items: center;
     margin-bottom: 0;
-    color: $text-color;
+    color: $header-color;
     transition: color 0.15s linear;
 
     &:focus,
     &:hover {
-      color: rgba($text-color, .5);
+      color: rgba($header-color, .5);
       text-decoration: none;
     }
 

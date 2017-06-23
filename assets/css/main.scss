@@ -3,7 +3,7 @@
 ---
 
 $bg-color: rgb(244,244,244);
-$text-color: rgb(51,51,51);
+$header-color: rgb(51,51,51);
 $copy-color: rgb(102,102,102);
 $brand-color: rgb(255,183,0);
 $inverted-color: rgb(238,238,238);
@@ -31,6 +31,7 @@ $grid-half-gutter: 15px;
 @import "components/hero";
 @import "components/gallery";
 @import "components/work";
+@import "components/page";
 
 html {
   height: 100%;
